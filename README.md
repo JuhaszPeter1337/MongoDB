@@ -30,4 +30,4 @@ sudo systemctl start mongod
 
 ```
 python3 db.py
-```⏎                       
+``` 
