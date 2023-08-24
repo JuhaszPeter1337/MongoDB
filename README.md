@@ -24,6 +24,7 @@ sudo apt install python3-pip -y
 ```
 sudo apt-get install mongodb-org -y
 sudo systemctl start mongod
+sudo systemctl enable mongod
 ```
 
 ## Start app
