@@ -2,7 +2,7 @@
 
 ## Description
 
-Little respondent chooser application using Python and MongoDB
+Little examinee chooser application using Python and MongoDB
 
 ## Prerequisites
 
