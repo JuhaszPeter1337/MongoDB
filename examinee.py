@@ -1,4 +1,3 @@
-from pymongo import MongoClient
 import random
 from person import Person
 from db import *
