@@ -2,7 +2,7 @@
 
 ## Description
 
-Testing MongoDB with Python
+Little respondent chooser application using Python and MongoDB
 
 ## Prerequisites
 
