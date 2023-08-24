@@ -65,15 +65,15 @@ if __name__ == "__main__":
             if len(x["grades"]) == min_value:
                 my_list.append(x["name"])
                 
-        print("\nPossible respondent(s):")
+        print("\nPossible examiner(s):")
         print(*my_list, sep=', ')
         
         if(len(my_list) == 1):
-            print(f"\nToday the respondent is {my_list[0]}!")
+            print(f"\nToday the examiner is {my_list[0]}!")
         else:
             length = len(my_list)
             number = random.randint(0, length-1)
-            print(f"\nToday the respondent is {my_list[number]}!")
+            print(f"\nToday the examiner is {my_list[number]}!")
 
     except Exception as e:
         print("An error occurred:", e)
