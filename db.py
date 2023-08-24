@@ -1,4 +1,5 @@
 from pymongo import MongoClient
+from person import Person
 
 def connect():
     client = MongoClient("mongodb://localhost:27017/")
@@ -11,7 +12,7 @@ def connect():
 
     return my_coll
 
-def add_row_to_db(person):
+def add_row_to_db(collection, person):
     record = {"id": person._id,
               "name": person.name,
               "age": person.age,
@@ -20,7 +21,7 @@ def add_row_to_db(person):
               "number": person.number,
               "grades": person.grades}
     
-    my_coll.insert_one(record)
+    collection.insert_one(record)
 
 def delete_from_db(collection, record):
     collection.delete_one(record)
